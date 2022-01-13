@@ -13,7 +13,20 @@ class Lunch {
      return lunchBox;
    }
 
-  
+ /* loop doing the same thing as while but for 
+   public static ArrayList<String> removeAnts(ArrayList<String> lunchBox) {
+    // Add your code below
+    for (int i=0; i<lunchBox.size();i++){
+      if (lunchBox.get(i)=="ant"){
+        lunchBox.remove(lunchBox.get(i));
+        i--;
+      }
+    }
+     
+     return lunchBox;
+   }
+ 
+  */
   public static void main(String[] args) {
     ArrayList<String> lunchContainer = new ArrayList<String>();
     lunchContainer.add("apple");
