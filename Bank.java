@@ -1,4 +1,4 @@
-//Assesor and mutator
+//Assesor and mutator, next file: CheckingAccount.java
 public class Bank{
   private CheckingAccount accountOne;
   private CheckingAccount accountTwo;
